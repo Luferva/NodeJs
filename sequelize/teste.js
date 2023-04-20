@@ -1,9 +1,9 @@
 //utilizando o modulo Sequelize do NodeJs para conexão com o banco de Dados bovespa_db. 
-const Sequelize = require('sequelize');
+/* const Sequelize = require('sequelize');
 const sequelize = new Sequelize('teste_nodejs', 'root', '', {
     host: "localhost",
     dialect: 'mysql'
-} );
+} ); */
 
 //função usada para testar conexão com Banco de Dados.
 sequelize.authenticate().then(function(){
